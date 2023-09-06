@@ -27,10 +27,7 @@ a:link {
 	color: rgba(255, 255, 255, 1);
 }
 .btn-primary {
-	background: var(
-		--Linear,
-		linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%)
-	);
+	background: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
 }
 
 .btn-secondary {
@@ -44,7 +41,7 @@ a:link {
 .header {
 	display: flex;
 	justify-content: space-between;
-	padding: 1.4rem 0;
+	padding: 38px 0;
 }
 .header-style {
 	display: flex;
@@ -52,25 +49,44 @@ a:link {
 	align-items: center;
 	gap: 0.5rem;
 }
+
+.header-style h1 {
+	color: #0b0223;
+	font-size: 45px;
+	font-weight: 700;
+}
+
+.header-style h1 span {
+	background: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 .header-icons {
 	display: flex;
-	gap: 0.4rem;
+	gap: 24px;
 }
-.header-icons img {
+.header-icons a img {
 	width: 20px;
 }
 .header-nav-style {
 	display: flex;
-	gap: 0.7rem;
+	gap: 32px;
 	justify-content: center;
 	align-items: baseline;
+	color: #3c354f;
+	font-size: 18px;
+	font-weight: 500;
 }
 .header-nav-style-inner {
 	display: flex;
-	gap: 0.6rem;
-	padding: 0.4rem 0.8rem;
+	gap: 24px;
+	padding: 15px 12px;
 	justify-content: center;
+	border-radius: 8px;
+	background: rgba(11, 2, 35, 0.1);
 }
+
 .banner-section {
 	display: flex;
 	justify-content: flex-end;
