@@ -120,6 +120,9 @@ a:link {
 	gap: 10px;
 	margin-top: 17px;
 }
+.funny-games-section {
+	margin-bottom: 120px;
+}
 
 .funny-games-section-title {
 	text-align: center;
@@ -171,4 +174,40 @@ a:link {
 	font-size: 20px;
 	font-weight: 500;
 	line-height: 30px; /* 150% */
+}
+
+.play-instantly-section {
+	display: flex;
+}
+.play-instantly-part-one h2 {
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 60px;
+	margin-bottom: 24px;
+}
+
+.play-instantly-part-one h2 span {
+	background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.play-instantly-part-one p {
+	color: #534c64;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.play-instantly-section figure {
+	position: relative;
+}
+
+.play-overlay-img {
+	position: absolute;
+	bottom: -125px;
+	left: -150px;
+}
+.play-overlay-img img {
+	width: 300.5px;
+	height: 350px;
 }
