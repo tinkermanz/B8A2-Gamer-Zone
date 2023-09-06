@@ -35,7 +35,7 @@ a:link {
 }
 
 .container {
-	width: 1140px;
+	width: 1240px;
 	margin: 0 auto;
 }
 .header {
@@ -87,19 +87,17 @@ a:link {
 	background: rgba(11, 2, 35, 0.1);
 }
 
+.banner-section-container {
+	background-image: url("./images/Group\ 14.png");
+	background-repeat: no-repeat;
+}
 .banner-section {
 	display: flex;
-	justify-content: flex-end;
-	align-items: flex-start;
 	margin-bottom: 50px;
+	justify-content: space-between;
 }
 .banner-section-part-one {
-	position: relative;
-}
-.banner-section-part-one .banner-section-heading {
-	position: absolute;
-	/* transform: translateY(-400px); */
-	bottom: 40px;
+	transform: translateY(20%);
 }
 
 .banner-title {
