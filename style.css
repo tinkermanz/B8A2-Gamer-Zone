@@ -178,7 +178,11 @@ a:link {
 
 .play-instantly-section {
 	display: flex;
+	margin-bottom: 220px;
+	text-align: right;
+	gap: 200px;
 }
+
 .play-instantly-part-one h2 {
 	font-size: 48px;
 	font-weight: 700;
@@ -208,6 +212,43 @@ a:link {
 	left: -150px;
 }
 .play-overlay-img img {
-	width: 300.5px;
-	height: 350px;
+	width: 260.5px;
+	height: 300px;
+}
+
+.action {
+	background: linear-gradient(
+		90deg,
+		rgba(255, 66, 165, 0.03) 13.13%,
+		rgba(255, 66, 165, 0.03) 87.94%
+	);
+	padding: 120px 0;
+}
+
+.action-button-section {
+	display: flex;
+	flex-wrap: wrap;
+	width: 1360px;
+	justify-content: center;
+	align-items: center;
+	color: #0b0223;
+	font-size: 20px;
+	font-weight: 600;
+	gap: 10px;
+}
+
+.action-btns {
+	display: flex;
+	gap: 10px;
+	padding: 5px 12px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px;
+	background: #fff;
+	border: non;
+}
+
+.action-btns:hover {
+	cursor: pointer;
+	outline: 1.5px solid #ff42a5;
 }
