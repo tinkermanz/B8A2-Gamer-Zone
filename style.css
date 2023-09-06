@@ -97,7 +97,7 @@ a:link {
 	justify-content: space-between;
 }
 .banner-section-part-one {
-	transform: translateY(20%);
+	transform: translateY(30%);
 }
 
 .banner-title {
@@ -174,13 +174,8 @@ a:link {
 	border: none;
 }
 .funny-games-section-img figure img:hover {
+	border-radius: 16px;
 	border: 4px solid #ff42a5;
-	background: linear-gradient(
-			0deg,
-			rgba(0, 0, 0, 0.6) 0%,
-			rgba(0, 0, 0, 0.6) 100%
-		),
-		url("./icons/icons8-play-64.png"), lightgray 50% / cover no-repeat;
 }
 
 .funny-games-section-img figure p {
@@ -324,4 +319,14 @@ a:link {
 	color: rgba(255, 255, 255, 0.6);
 	font-size: 16px;
 	font-weight: 500;
+}
+
+.footer-media-icons {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	gap: 60px;
+	font-size: 40px;
+	margin-bottom: 30px;
 }
