@@ -35,7 +35,7 @@ a:link {
 }
 
 .container {
-	width: 1240px;
+	max-width: 1240px;
 	margin: 0 auto;
 }
 .header {
@@ -237,7 +237,7 @@ a:link {
 .action-button-section {
 	display: flex;
 	flex-wrap: wrap;
-	width: 1360px;
+	max-width: 1360px;
 	justify-content: center;
 	align-items: center;
 	color: #0b0223;
@@ -325,8 +325,76 @@ a:link {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	color: #fff;
 	gap: 60px;
 	font-size: 40px;
 	margin-bottom: 30px;
+}
+
+.footer-media-icons a {
+	color: #fff;
+}
+
+@media screen and (max-width: 576px) {
+	.header {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 30px;
+	}
+	.header-nav-style {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.banner-section-container {
+		background-image: none;
+	}
+	.banner-section {
+		flex-direction: column;
+	}
+	.banner-section-part-one {
+		order: 2;
+		background-image: url("./images/Group\ 14.png");
+		background-repeat: no-repeat;
+		background-size: contain;
+		padding: 20px
+		};
+	}
+	.funny-games-section {
+		margin-top: 200px;
+	}
+	.funny-games-section-img {
+		flex-direction: column;
+		justify-content: center;
+		align-items: first baseline;
+	}
+
+	.play-instantly-section {
+		flex-direction: column;
+	}
+	.play-instantly-part-one {
+		padding: 20px;
+	}
+
+	.play-overlay-img {
+		left: 50px;
+	}
+
+	.action-button-section {
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+
+	.footer-action-links {
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.footer-media-icons {
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.footer-additonal-links {
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
 }
